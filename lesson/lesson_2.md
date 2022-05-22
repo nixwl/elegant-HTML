@@ -72,7 +72,6 @@
       <var>:定义变量
       <pre>:定义预格式文本
       ```
-
 10. <font color="Aqua"><stong>什么是HTML引用</stong></font><br>
    HTML引用类似于编辑自己的文本时引用了其他人的文本，需要将被引用文本与其他文本区分开。HTML引用就是完成这样的功能
        - 10.1 HTML的短引用：通过 `<q> </q>`标记被引用文本  
@@ -157,6 +156,42 @@
             >      This text will be written from right to left
             >   </bdo> 
             >```
+12. <font color="Aqua"><stong>HTML如何添加注释？</stong></font><br>
+   - 方法很简单，添加注释只需使用`<!-- -->`即可。  
+      > 例如:
+      > ```
+      >   <!-- 这是一段注释 -->
+      >    <p>这是一个段落。</p>
+      >   <!-- 记得在此处添加信息 -->
+      > ```
+   - 我们在浏览其他网页代码时，也许会碰到这样的代码,。
+      >``` 
+      >   <!--[if IE 8]>
+      >     .... some HTML here ....
+      >   <![endif]-->
+      >```
+      > 我们称其为条件注释，条件注释定义只有 Internet Explorer 执行的 HTML 标签
+   - 各种HTML软件程序也能够生成HTML注释,我们称其为软件程序注释    
+13. <font color="Aqua"><stong>网页中如何灵活使用多种颜色？</stong></font><br>
+       - 首先，我们知道，RGB通道颜色是由三原色组成，即红色(Red)、绿色(Green)、蓝色(Blue)  
+       - 每个颜色都由一个16进制符号定义，这个符号是由红色、绿色、蓝色组成的  
+       - 每种颜色的最小值为 0D(#00H),最大值为255(#FFH) 
+          > 后缀-D 表示10进制数，后缀-H表示16进制数   
+          > 下面我们给出一张普通的色卡 
+          > ![色卡](/img/color_page.jpg "color_page")
+       - 颜色有多种多样，所以每种颜色都应当有颜色名(<font color="red"><stong>大多数的浏览器都支持颜色名集合</stong></font>)
+          > - 如果你想查找HTMl中的颜色名，可以到该网站
+          [HTML颜色名](https://www.w3school.com.cn/html/html_colornames.asp "HTML颜色名")
+          > - 但是，仅有16中颜色名被W3C的 HTML4.0 标准支持，分别为：aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, yellow
+          > - 想要使用其他颜色，我们这是就需要用16进制的颜色值来精确地描述颜色了
+       - 接下来，我们聊一聊Web安全色  
+         Web安全色是什么呢？当初计算机使用256种颜色时，一系列216种Web 安全色作为 Web 标准被建议使用。其中的原因是，微软和 Mac 操作系统使用了 40 种不同的保留的固定系统颜色（双方大约各使用 20 种） 
+           > 下面是这216跨平台色的色卡
+           > ![色卡](/img/color_page_216.jpg "color_page")
+
+   
+
+
 ---------------
 
 
