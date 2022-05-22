@@ -178,7 +178,7 @@
        - 每种颜色的最小值为 0D(#00H),最大值为255(#FFH) 
           > 后缀-D 表示10进制数，后缀-H表示16进制数   
           > 下面我们给出一张普通的色卡 
-          > ![色卡](/img/color_page.jpg "color_page")
+          > ![色卡](https://github.com/nixwl/elegant-HTML/blob/master/img/color_page.jpg "color_page")
        - 颜色有多种多样，所以每种颜色都应当有颜色名(<font color="red"><stong>大多数的浏览器都支持颜色名集合</stong></font>)
           > - 如果你想查找HTMl中的颜色名，可以到该网站
           [HTML颜色名](https://www.w3school.com.cn/html/html_colornames.asp "HTML颜色名")
@@ -187,7 +187,7 @@
        - 接下来，我们聊一聊Web安全色  
          Web安全色是什么呢？当初计算机使用256种颜色时，一系列216种Web 安全色作为 Web 标准被建议使用。其中的原因是，微软和 Mac 操作系统使用了 40 种不同的保留的固定系统颜色（双方大约各使用 20 种） 
            > 下面是这216跨平台色的色卡
-           > ![色卡](/img/color_page_216.jpg "color_page")
+           > ![色卡](https://github.com/nixwl/elegant-HTML/blob/master/img/color_page_216.jpg "color_page")
 
    
 
